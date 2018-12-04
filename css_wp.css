@@ -58,3 +58,15 @@ nav ul li a, #topMenu ul li div {
 	text-shadow:none;
 
 }
+
+#content {
+
+	padding-bottom:20px;
+
+    overflow:hidden;
+
+	margin-top:25px;
+
+ 	/*text-shadow:#eee 1px 1px;*/ /*Evitamos la sombra de texto que daba la sensación de texto borroso en el calendario*/
+
+}
