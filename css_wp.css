@@ -1,0 +1,60 @@
+#logo a {
+
+    font-family: Georgia;
+
+    color: blue; /*Cambio del color del titulo a color azul*/
+
+    display: block;
+
+    font-size: 50px; /*Se agranada el tamaño del titulo*/
+
+    font-weight: bold;
+
+    letter-spacing: -1px;
+
+    padding-top: 10px; /*Se ha reducido el padding para compensar el aumento de tamaño de la fuente*/
+
+}
+
+
+nav ul li a, #topMenu ul li div {
+
+	color:blue; /*Cambio de la fuente del menu a color azul*/
+
+	display:block;
+
+	font-size:12px;
+
+	height:32px;
+
+	padding:18px 15px 0;
+
+	text-transform:uppercase;
+
+}
+
+#content .postBoxInnerHover {
+
+	background: lightblue; /*Se modifica el color de los posts para que se muestre en azul al pasar por encima*/
+
+	border:8px solid #80C5F2; /*Se modifica el color del borde de los posts para que se muestre en azul al pasar por encima*/
+
+}
+
+#footerInner h2 {
+
+	border-bottom:1px solid #292929;
+
+	color:blue; /*Se modifican los titulos del footer para que se muestren en azul*/
+
+	font-size:20px;
+
+	font-weight:normal;
+
+	margin-bottom:10px;
+
+	padding:7px 0 12px;
+
+	text-shadow:none;
+
+}
