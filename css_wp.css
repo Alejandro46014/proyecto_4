@@ -70,3 +70,25 @@ nav ul li a, #topMenu ul li div {
  	/*text-shadow:#eee 1px 1px;*/ /*Evitamos la sombra de texto que daba la sensación de texto borroso en el calendario*/
 
 }
+
+
+
+h3.tribe-events-month-event-title{
+	font-size: 15px !important; /*Cambiamos el tamaño de la letra de los eventos del calendario para que destquen más*/
+	text-align: center !important;/*centramos el titulo en cada casilla*/
+	margin-top: 30px !important; /*Añadimos margen superior para centrar verticalmente el titulo en la casilla del calendario*/
+
+  /*Se utiliza !important para priorizar los cambios en esta clase sobre la ya creada*/
+}
+
+nav {
+
+	left:-13px;
+
+	/*position:absolute;*/ /*Se evita esta parte que provocaba una mala colacion de contenido*/
+
+	/*text-shadow:1px 1px #000;*/ /*Se evita esta parte por razones esteticas*/
+
+	top:0;
+
+}
