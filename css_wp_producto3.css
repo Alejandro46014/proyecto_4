@@ -1,0 +1,20 @@
+#footerInner .boxFooter {
+
+	float:left;
+
+	margin-bottom:40px;
+
+	/*overflow:hidden;*/ /*quitamos el atributo overflow para que no se corte el mapa al hacerlo más ancho*/
+
+	padding-right:30px;
+
+	width:210px;
+
+}
+
+
+/*------------------------------------MAPA------------------------------------------------------*/
+
+#myMap{
+	width: 500px !important; /*marcamos la anchura del mapa y lo marcamos con !important para que tenga prioridad en el estilo*/
+}
